@@ -6,6 +6,8 @@ my_eyes = 'Blue'
 my_teeth = 'White'
 my_hair = 'Brown'
 
+
+HREAHREAHRAEHRAEHRA
 print "Let's talk about %s." % my_name
 print "He's %d inches tall." % my_height
 print "He's %d pounds heavy." % my_weight
