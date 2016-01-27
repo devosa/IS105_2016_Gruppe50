@@ -1,5 +1,5 @@
 import unittest
-from IS105 import add, sub, multiply, remain, square
+from IS105 import add, sub, multiply, remain, square, divide
 
 
 class TestAdd(unittest.TestCase):
@@ -31,6 +31,12 @@ class TestSquare(unittest.TestCase):
         pass
     def test_numbers_2_2(self):
         self.assertEqual(square(2,2), 4) 
+        
+class TestDivide(unittest.TestCase):
+    def setUp(self):
+        pass
+    def test_numbers_20_10(self):
+        self.assertEqual(divide(20,10), 2)
 
 if __name__ == '__main__':
     unittest.main()
