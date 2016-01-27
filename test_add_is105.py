@@ -11,8 +11,7 @@ class TestSquare(unittest.TestCase):
     def setUp(self):
         pass
     def test_numbers_2_2(self):
-        self.assertEqual(square(2,2), 3)
-        
+        self.assertEqual(square(2,2), 4) 
+
 if __name__ == '__main__':
     unittest.main()
-    
