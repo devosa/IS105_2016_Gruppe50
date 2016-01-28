@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 '''Vi har laget en model for en kortstokk og utdeling av kort i python. Vi har en rekke for Suits, og en for ranks.
 Så randomizer kortstokken en verdi fra hver rekke, og deler ut et ønsket antall kort til hver spiller.
 I dette tilfellet har vi valgt to kort fordi vi vil ha et pokerspill. Så gjentas prosessen 5 ganger fordi vi er 5 spillere.
