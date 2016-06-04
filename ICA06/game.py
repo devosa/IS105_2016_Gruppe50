@@ -45,16 +45,16 @@ class RiverGame():
         if name == "chicken":
             if ("fox" in stuffInBoatList) or ("bagOfGrains" in stuffInBoatList):
                 if not "man" in stuffInBoatList:
-                    print "MOTHERFUCKING BOAT GAME OVER"
+                    print "Game over"
         elif name == "fox":
             if "chicken" in stuffInBoatList:
                 if not "man" in stuffInBoatList:
-                    print "MOTHERFUCKING BOAT GAME OVER"
+                    print "Game over"
 
         elif name == "bagOfGrains":
             if "chicken" in stuffInBoatList:
                 if not "man" in stuffInBoatList:
-                    print "MOTHERFUCKING BOAT GAME OVER"
+                    print "Game over"
 
         print "boat success"
 
@@ -69,16 +69,15 @@ class RiverGame():
         if name != "chicken":
             if name == "fox":
                 if ("chicken" in stuffOnLandList) and ("bagOfGrains" in stuffOnLandList) and ("man" not in stuffOnLandList):
-                    print "MOTHERFUCKING LAAAAAAAND GAME OVER" + name
+                    print "Game over" + name
             if name == "bagOfGrains":
                 if ("chicken" in stuffOnLandList) and ("man" not in stuffOnLandList):
-                    print "MOTHERFUCKING LAAAAAAAND GAME OVER" + name
+                    print "Game over" + name
             if name == "man":
                 if (("chicken" in stuffOnLandList) and
                    (("fox" in stuffOnLandList) or ("bagOfGrains" in stuffOnLandList))):
-                    print "MOTHERFUCKING LAAAAAAAND GAME OVER" + name
+                    print "Game over" + name
 
-        print "land success " + name
 
     def getGameStatus(self):
 
